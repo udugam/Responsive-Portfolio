@@ -1,9 +1,11 @@
 header{
     height: 90px;
-    position: relative;
+    position: fixed;
+    top:0px;
     margin:auto;
     background-color: #ffffff;
-    border-bottom: 3px solid #cccccc
+    border-bottom: 3px solid #cccccc;
+    z-index:1
 }
 
 .logo {
@@ -183,10 +185,25 @@ button {
 }
 
 @media screen and (max-width: 768px) {
+    .header-content {
+        margin-left:20px;
+    }
 
+    .content-container {
+        width:auto;
+        margin-left:20px;
+        margin-right:20px;
+    }
+
+    header{
+        position: static;
+    }
 }
 
 @media screen and (max-width: 640px) {
-    
+    #profile-picture{
+        width: 100%;
+        padding-bottom: 30px;
+    }
 }
 
