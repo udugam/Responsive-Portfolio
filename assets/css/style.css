@@ -1,6 +1,7 @@
 header{
     height: 90px;
     position: fixed;
+    width: 100%;
     top:0px;
     margin:auto;
     background-color: #ffffff;
@@ -28,6 +29,7 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 35px;
     font-size: 18px;
+    padding-right:30px;
 }
 
 h1 {
@@ -41,7 +43,8 @@ h1 {
     position: relative;
     margin: auto;
     border: 1px solid #dddddd;
-    margin-top:40px;
+    margin-top:133px;
+    margin-bottom:70px
 }
 
 .content-title {
@@ -194,16 +197,16 @@ button {
         margin-left:20px;
         margin-right:20px;
     }
-
-    header{
-        position: static;
-    }
 }
 
 @media screen and (max-width: 640px) {
     #profile-picture{
         width: 100%;
         padding-bottom: 30px;
+    }
+
+    header {
+        position: static;
     }
 
     .header-content {
