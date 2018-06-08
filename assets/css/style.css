@@ -98,34 +98,41 @@ p {
     padding-bottom: 10px;
 }
 
-a {
+.menu-link {
     color: #777777;
     padding: 0px 16px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-decoration: none;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
 .project-tile {
     position: relative;
-    padding-right:30px;
-    padding-bottom:40px;
+    padding-right:50px;
     float: left;
 }
 
 #project-thumbnail {
-    width:250px;
+    /* width:250px; */
     height:200px;
 }
 
 .project-title {
-    position: absolute;
+    position: relative;
     background-color: #4aaaa5;
     color: white;
     text-align: center;
-    width: 250px;
+    width: 100%;
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
     padding:20px 0px;
-    bottom:50px;
+    bottom:70px;
 }
 
 input {
@@ -223,7 +230,6 @@ button {
     .project-tile {
         width:100%;
         padding-right:0px;
-        height: 
     }
 
     .project-title {
